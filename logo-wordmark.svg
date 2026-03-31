@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 512" width="1400" height="512">
+  <!-- Background -->
+  <rect width="1400" height="512" fill="#0A0A0A"/>
+  
+  <!-- Hexagon icon -->
+  <g transform="translate(180, 256)">
+    <!-- Outer hexagon - volt yellow -->
+    <polygon 
+      points="0,-130 113,-65 113,65 0,130 -113,65 -113,-65" 
+      fill="#C8FF00"
+    />
+    <!-- Inner hexagon - black cutout -->
+    <polygon 
+      points="0,-85 74,-42 74,42 0,85 -74,42 -74,-42" 
+      fill="#0A0A0A"
+    />
+    <!-- Center volt hex -->
+    <polygon 
+      points="0,-45 39,-22 39,22 0,45 -39,22 -39,-22" 
+      fill="#C8FF00"
+    />
+    <!-- Innermost cutout -->
+    <polygon 
+      points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" 
+      fill="#0A0A0A"
+    />
+    <!-- Core dot -->
+    <circle cx="0" cy="0" r="10" fill="#C8FF00"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text x="350" y="290" 
+    font-family="'Space Grotesk', 'Arial Black', sans-serif" 
+    font-size="140" 
+    font-weight="700" 
+    letter-spacing="12"
+    fill="#FFFFFF">
+    COGNO
+  </text>
+  <text x="870" y="290" 
+    font-family="'Space Grotesk', 'Arial Black', sans-serif" 
+    font-size="140" 
+    font-weight="700" 
+    letter-spacing="12"
+    fill="#C8FF00">
+    X
+  </text>
+  <text x="975" y="290" 
+    font-family="'Space Grotesk', 'Arial Black', sans-serif" 
+    font-size="140" 
+    font-weight="700" 
+    letter-spacing="12"
+    fill="#FFFFFF">
+    IDE
+  </text>
+</svg>

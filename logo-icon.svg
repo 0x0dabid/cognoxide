@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0A0A0A"/>
+  
+  <!-- Outer hexagon - volt yellow -->
+  <polygon 
+    points="256,60 430,155 430,345 256,440 82,345 82,155" 
+    fill="#C8FF00"
+  />
+  
+  <!-- Inner hexagon - black cutout -->
+  <polygon 
+    points="256,120 380,190 380,320 256,390 132,320 132,190" 
+    fill="#0A0A0A"
+  />
+  
+  <!-- Center element - small volt hexagon -->
+  <polygon 
+    points="256,190 320,225 320,295 256,330 192,295 192,225" 
+    fill="#C8FF00"
+  />
+  
+  <!-- Innermost cutout -->
+  <polygon 
+    points="256,215 300,240 300,280 256,305 212,280 212,240" 
+    fill="#0A0A0A"
+  />
+  
+  <!-- Core dot -->
+  <circle cx="256" cy="260" r="18" fill="#C8FF00"/>
+</svg>
